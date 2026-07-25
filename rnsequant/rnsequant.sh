@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# Integrated RNA-Seq Analysis Pipeline (v0.9)
+# Integrated RNA-Seq Analysis Pipeline (v1.0.0)
 # ==============================================================================
 # Description:
 #   A master script to run a complete RNA-Seq analysis pipeline.
