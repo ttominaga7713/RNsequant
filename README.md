@@ -1,5 +1,5 @@
 # RNsequant
-Automated RNA-seq analysis pipeline for human and mouse data (v0.9)
+Automated RNA-seq analysis pipeline for human and mouse data (v1.0.0)
 
 ## Pipeline Architecture and File Placement
 The main executable `rnsequant.sh` serves as a wrapper script. Rather than performing the data processing directly, it controls the execution flow and automatically calls the specialized submodule scripts (such as `run_fastq_download.sh`, `run_salmon.sh`, `run_edgeR_core.sh`, etc.) located inside the `rnsequant` directory.
@@ -96,3 +96,9 @@ The following tool versions are utilized when running the pipeline in Docker mod
 * **QAPA:** 1.3.3
 * **tximport:** 1.22
 * **MultiQC:** 1.10.1
+
+* ## Citations
+If you use this pipeline for your research or data analysis, please cite it using the Zenodo DOI below.
+
+**Citation Format:**
+> Takaki Tominaga. (2026). ttominaga7713/RNsequant: RNsequant (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21450707
